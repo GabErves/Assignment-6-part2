@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: plum;
+  height: 100vh;
+}
+h1 {
+  margin-bottom: 30px;
+}
+.form-data {
+  display: flex;
+  flex-flow: column;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+input[type="text"] {
+  font-size: 1.2rem;
+  margin: 10px;
+  text-align: center;
+}
+input[type="text"]:disabled {
+  background-color: #fff;
+}
+label {
+  font-size: 1.3rem;
+}
+pre {
+  white-space: pre-wrap;
+  width: 50%;
+}
+.input-container {
+  position: relative;
+}
+.icon-container {
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 10px);
+}
